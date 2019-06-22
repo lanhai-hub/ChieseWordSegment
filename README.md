@@ -5,6 +5,9 @@
 其中128为模型中BiLSTM的输出维度。Dropout层防止过拟合，再经过TimeDistribute层将128维对应为5维。设分词任务的目标标签为
 X（0）,B（Begin）,M（Middle）,E（End）,S（Single），使用CRF层模型最终输出维度为（120，5）的向量。
 
+data_process.py 数据预处理
+BILSTM_CRF_Model.py 模型建立以及训练
+bilstm_crf_cutword.py  使用模型进行分词
 
 模型效果：
 
