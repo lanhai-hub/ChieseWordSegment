@@ -7,14 +7,17 @@ X（0）,B（Begin）,M（Middle）,E（End）,S（Single），使用CRF层模�
 
 
 模型效果：
+
 Msr数据集
 === RECALL:	0.949
 === PRECISION:	0.949
 === F MEASURE:	0.949
+
 pku数据集
 === RECALL:	0.909
 === PRECISION:	0.924
 === F MEASURE:	0.917
+
 cityu数据集
 === RECALL:	0.934
 === PRECISION:	0.932
